@@ -78,6 +78,10 @@ This extension solves several common annoyances and provides handy features for 
 
 ### Extension Settings
 
+Python discovery, pairing and synchronization require a trusted workspace. Notebook cell editing remains available in Restricted Mode.
+
+Configure `jupytextSync.pythonExecutable`, `jupytextSync.setFormatsArgs` and `jupytextSync.syncArgs` in **User** settings (or **Remote User** settings for a remote environment). Workspace and folder values are ignored, even in trusted workspaces. Move any existing workspace overrides to User settings.
+
 You can configure the extension's behavior via VSCode settings (search for `jupytextSync` in the Settings UI or edit your `settings.json`):
 
 - **`jupytextSync.pythonExecutable`**:
